@@ -41,7 +41,8 @@ nav a {
 
 .phone {
     display:flex;
-    align-items: center;    
+    align-items: center;
+    background-color: #f9f9f9;    
 }
 
 /* Red section */
@@ -113,6 +114,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 
 .footer-column {
@@ -125,3 +128,6 @@ footer {
     
 }
 
+footer img {
+    width: 30%;
+}
