@@ -4,3 +4,53 @@
     font-family: Roboto;
 }
 
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;   
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+/* Section 1 */
+
+.section1 {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.section1 div {
+    width: 50%;
+}
+
+.section1 img {
+  width: 50%;
+}
+
+.section1 h3 {
+    color: #ef5466;
+}
+/* Phone */
+
+.phone {
+    display:flex;
+     align-items: center;
+}
+
+/* Red section */
+
+.sectionred {
+    display: flex;
+    align-items: center;
+}
+
+/* Plans 1 */
+
+/* Plans 2 */
+
+/* Footer */
