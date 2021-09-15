@@ -96,4 +96,32 @@ span {
 
 /* Plans 2 */
 
+.plans2 div {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-column > div {
+    padding: 50px;
+    
+}
+
