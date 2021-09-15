@@ -8,16 +8,12 @@
 
 header {
     display: flex;
-    align-items:center;
-    
-    
+    align-items:center;   
 }
 
 nav {
     display: flex;
-    justify-items: right;
-   
-    
+    justify-items: right;    
 }
 nav a {
     text-decoration: none;
@@ -29,9 +25,15 @@ nav a {
 .section1 {
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
 
+.section1 div {
+    width: 50%;
+}
+
+.section1 img {
+    width: 50%;
+}
 
 
 
@@ -39,8 +41,7 @@ nav a {
 
 .phone {
     display:flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 /* Red section */
@@ -56,8 +57,7 @@ nav a {
 span {
     background-color: white;
     padding: 20px;
-    margin: 10px;
-    
+    margin: 10px;   
 }
 
 .section-red div {
@@ -90,8 +90,7 @@ span {
 .plans-container div {
     border: solid 1.5px rgb(182, 181, 181);
     margin: 2px;
-    box-shadow: 3px 3px rgb(231, 229, 229);
-     
+    box-shadow: 3px 3px rgb(231, 229, 229);    
 }
 
 
