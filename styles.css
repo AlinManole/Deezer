@@ -300,10 +300,8 @@ section .button-gratuit {
 
 .plans2 {
    display: flex;
-   flex-direction: column;
-   
+   flex-direction: column;  
 }
-
 .plans2 a {
     color: black;
 }
