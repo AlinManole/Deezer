@@ -8,12 +8,14 @@
 
 header {
     display: flex;
-    align-items:center;   
+    align-items: stretch;
+    justify-content: space-between;
+
 }
 
 nav {
     display: flex;
-    justify-items: right;    
+    align-items: center;   
 }
 nav a {
     text-decoration: none;
