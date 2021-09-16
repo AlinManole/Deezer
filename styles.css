@@ -118,8 +118,26 @@ section .button-gratuit {
 .phone {
     display:flex;
     align-items: center;
-    background-color: #f9f9f9;    
+    background-color: #f9f9f9;
+    padding: 50px 100px;
 }
+
+.phone > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone > div > h2 {
+    font-size: 50px;
+}
+
+.phone > div > div {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
 
 /* Red section */
 
@@ -127,7 +145,7 @@ section .button-gratuit {
     display: flex;
     justify-content: center;
     background-color: #ef5466;
-    padding: 50px 70px 50px 70px;
+    padding: 80px 100px 80px 100px;
     align-items:center;
 }
 
