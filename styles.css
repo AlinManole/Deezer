@@ -12,9 +12,13 @@ header {
     justify-content: space-between;
 }
 
+header img {
+    margin-left: 80px;
+}
 nav {
     display: flex;
     align-items: center;   
+    margin-right: 80px;
 }
 nav a {
     text-decoration: none;
