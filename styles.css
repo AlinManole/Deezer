@@ -4,6 +4,10 @@
     font-family: Roboto;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Header */
 
 header {
@@ -199,11 +203,11 @@ span {
 }
 
 .plans-container h5 {
-    padding: 5px 0;
+    padding: 5px 0 15px 0;
 }
 
 .plans-container h6 {
-    padding-top: 30px;
+    padding: 15px 0;
 }
 .plans-container div {
     border: solid 1.5px rgb(182, 181, 181);
@@ -231,9 +235,8 @@ span {
 
 .plans-left > .graybutton {
     background-color: #8e8e94;
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 30px;
-    color: white;
     font-weight: bold;
     border: solid 2px #8e8e94;
     text-decoration: none;
@@ -244,12 +247,14 @@ span {
     color: white;
 }
 
+.plans-center p {
+   color:#f9f9f9;
+}
 
 .plans-center > .redbutton {
     background-color: #ef5466;
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 30px;
-    color: white;
     font-weight: bold;
     border: solid 2px #ef5466;
     text-decoration: none;
@@ -257,26 +262,57 @@ span {
 
 .plans-right > .redbutton {
     background-color: #ef5466;
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 30px;
-    color: white;
     font-weight: bold;
     border: solid 2px #ef5466;
     text-decoration: none;
 }
 
+.plans a {
+    color: #f9f9f9;
+}
 
 
 
 /* Plans 2 */
 
-.plans2 div {
+.plans2 {
+   display: flex;
+   flex-direction: column;
+}
+
+.plans2 a {
+    color: black;
+}
+.plans2 > div {
     background-color: #f9f9f9;
-    margin: 5px 0;
     display: flex;
-    height: 60px;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    padding: 10px 80px;
+    margin: 3px;
+    justify-content: space-between;
+}
+
+.plans2 > div > button {
+    border: 0;
+    text-align: center;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: solid 2px black;
+    text-decoration: none;
+}
+
+.plans2 > div > div {
+   padding: 10px;
+}
+
+.plans2 h6 {
+    color: #2d96c8;
 }
 
 
