@@ -10,7 +10,6 @@ header {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-
 }
 
 nav {
@@ -19,6 +18,38 @@ nav {
 }
 nav a {
     text-decoration: none;
+}
+
+.links-header a {
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+}
+
+header button {
+    border: 0;
+    text-align: center;
+    margin: 0 10px;
+    background-color: white;
+    
+}
+
+header .button-head-1 {
+    background-color: white;
+    padding: 10px 30px;
+    border: solid 2px #2d96c8;
+    border-radius: 30px;
+    color: #2d96c8;
+    font-weight: bold;
+}
+
+header .button-head-2 {
+    background-color: #2d96c8;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: solid 2px #2d96c8;
 }
 
 
