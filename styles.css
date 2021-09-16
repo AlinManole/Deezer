@@ -164,7 +164,9 @@ span {
 }
 
 .section-red-text h2 {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    
 }
 
 
@@ -175,18 +177,95 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
+}
+
+.plans h2 {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.plans p {
+    font-size: 10;
+    color: gray;
+    margin: 0 150px;
 }
 
 .plans-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
+.plans-container h5 {
+    padding: 5px 0;
+}
+
+.plans-container h6 {
+    padding-top: 30px;
+}
 .plans-container div {
     border: solid 1.5px rgb(182, 181, 181);
     margin: 2px;
-    box-shadow: 3px 3px rgb(231, 229, 229);    
+    box-shadow: 3px 3px rgb(231, 229, 229);
+    padding: 30px;
+    text-align: center;
 }
+
+.plans-container p{
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+
+.plans-container h3 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.plans-container button {
+    border: 0;
+    text-align: center;
+    margin: 7px;
+}
+
+.plans-left > .graybutton {
+    background-color: #8e8e94;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: solid 2px #8e8e94;
+    text-decoration: none;
+}
+
+.plans-center {
+    background-color: #2d96c8;
+    color: white;
+}
+
+
+.plans-center > .redbutton {
+    background-color: #ef5466;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: solid 2px #ef5466;
+    text-decoration: none;
+}
+
+.plans-right > .redbutton {
+    background-color: #ef5466;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: solid 2px #ef5466;
+    text-decoration: none;
+}
+
+
 
 
 /* Plans 2 */
