@@ -133,7 +133,7 @@ section .button-gratuit {
     display:flex;
     align-items: center;
     background-color: #f9f9f9;
-    padding: 50px 200px;
+    padding: 50px 100px;
 }
 
 .phone img {
@@ -151,10 +151,16 @@ section .button-gratuit {
     font-size: 50px;
 }
 
-.phone > div > div {
+.phone-text-container {
+    margin: 0 15px 0 30px;
     display: flex;
     align-items: center;
-    padding: 60px;
+    padding: 40px;
+}
+
+.phone h4 {
+    padding: 20px 0;
+    font-weight: bold;
 }
 
 
@@ -302,6 +308,10 @@ section .button-gratuit {
    display: flex;
    flex-direction: column;  
 }
+
+.plans2 h3{
+    padding: 10px 0;
+}
 .plans2 a {
     color: black;
 }
@@ -347,17 +357,21 @@ footer {
     flex-direction: column;
     background-color: black;
     color: white;
-    
 }
 
-footer .appstore {
+footer a {
+    color: white;
+}
+
+.appstore {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 50px;
 }
 
 .appstore img {
-    border: solid 1px #8e8e94;
+    margin: 10px;
+    border: solid 2px  #8e8e94;
     border-radius: 10px;
 }
 
@@ -366,11 +380,16 @@ footer .appstore {
     flex-direction: row;
     justify-content: space-between;
     padding: 60px 140px 0 140px;
-    text-align: center;
+    
+}
+
+.footer-column p {
+    padding: 15px 0;
 }
 
 footer h6 {
     color: #8e8e94;
+    padding-bottom: 10px;
 }
 
 
@@ -378,13 +397,17 @@ footer .last {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-between;
     padding: 120px;
+    margin: 0 30px;
+}
+
+footer .last i {
+    margin: 10px;
 }
 
 footer img {
     width: 150px;
 }
-
 
 
