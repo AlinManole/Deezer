@@ -65,42 +65,37 @@ header .button-head-2 {
 /* Section 1 */
 
 .section1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 280px 0 280px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+margin: 0 60px;
+padding: 0 10px 0 120px;
 }
 
-.section1 .first-block {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.block-text h3 {
+  color:#ef5466 ;
+  font-size: 40px;
 }
 
-.section1 .block-button {
-    display: flex;
-    padding: 30px;
+.block-text h1{
+    font-size: 50px;
+}
+
+.block-button {
+    justify-items: center;
+    align-items: center;
+    padding-top: 40px;
 }
 
 .block-button button {
     border: 0;
     text-align: center;
-    margin: 7px;
+    margin: 15px;
+    background: white;
+    
 }
 
-.section1 img {
-    width: 50%;
-}
-
-.section1 h1 {
-    font-size: 35px;
-}
-
-.section1 h3 {
-    color:#ef5466;
-    font-size: 35px;
-}
 
 section .button-premium {
     background-color: #ef5466;
@@ -114,7 +109,7 @@ section .button-premium {
 
 section .button-gratuit {
     background-color: white;
-    padding: 10px 30px;
+    padding: 10px 37px;
     border-radius: 30px;
     color: black;
     font-weight: bold;
@@ -122,6 +117,10 @@ section .button-gratuit {
     text-decoration: none;
 }
 
+
+.section1 img {
+    width: 60%;
+}
 
 /* Phone */
 
@@ -404,3 +403,4 @@ footer .last i {
 footer img {
     width: 150px;
 }
+
